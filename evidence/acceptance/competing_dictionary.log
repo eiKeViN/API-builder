@@ -1,0 +1,4 @@
+$ lake env lean tests/acceptance/competing_dictionary.lean
+tests/acceptance/competing_dictionary.lean:17:0: error: definitional contract mismatch at default transparency
+
+exit: 1

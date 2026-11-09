@@ -1,0 +1,5 @@
+$ lake env lean tests/acceptance/collision.lean
+tests/acceptance/collision.lean:7:0: error: output collision 'OrderExample.Map.ext_iff'; use an explicit binding
+TEST: no accepted receipt
+
+exit: 1

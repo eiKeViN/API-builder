@@ -15,6 +15,9 @@ OUT.mkdir(parents=True, exist_ok=True)
 work = Path(tempfile.mkdtemp(prefix='api-builder-smoke-'))
 repo = work / 'repo'
 shutil.copytree(ROOT, repo, ignore=shutil.ignore_patterns('.git', '.lake', 'evidence', '__pycache__'))
+# The old smoke seam is intentionally Lean-only, independent of mathematical recipes.
+(repo / 'lakefile.toml').write_text('name = "apiBuilder"\n[[lean_lib]]\nname = "ApiBuilder"\n')
+(repo / 'lake-manifest.json').unlink(missing_ok=True)
 consumer = repo / 'tests/consumer'
 records = []
 

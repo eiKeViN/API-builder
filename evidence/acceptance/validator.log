@@ -1,0 +1,6 @@
+$ lake env lean tests/acceptance/validator.lean
+tests/acceptance/validator.lean:6:0: error: intentional validator error
+tests/acceptance/validator.lean:6:0: error: API acceptance failed during validator BadRecipes.loggedValidator
+TEST: no accepted receipt
+
+exit: 1

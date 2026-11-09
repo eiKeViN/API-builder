@@ -1,0 +1,6 @@
+$ lake env lean tests/acceptance/sorry_axiom.lean
+tests/acceptance/sorry_axiom.lean:6:0: warning: declaration uses `sorry`
+tests/acceptance/sorry_axiom.lean:6:0: error: forbidden axiom 'sorryAx' in 'OrderExample.Map.bad'
+TEST: no accepted receipt
+
+exit: 1

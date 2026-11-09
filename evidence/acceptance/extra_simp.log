@@ -1,0 +1,4 @@
+$ lake env lean tests/acceptance/extra_simp.lean
+tests/acceptance/extra_simp.lean:6:0: error: registration mismatch 'simp' on 'OrderExample.Map.comp_assoc'
+
+exit: 1

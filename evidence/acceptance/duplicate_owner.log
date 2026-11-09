@@ -1,0 +1,5 @@
+$ lake env lean tests/acceptance/duplicate_owner.lean
+tests/acceptance/duplicate_owner.lean:6:0: error: duplicate ownership: 'bundledMap' and 'otherStage' claim 'instFunLike'
+TEST: no accepted receipt
+
+exit: 1

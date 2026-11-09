@@ -1,0 +1,12 @@
+$ lake env lean tests/acceptance/wrong_composition.lean
+tests/acceptance/wrong_composition.lean:7:0: error: Type mismatch
+  wrongComposition
+has type
+  ℕ
+of sort `Type` but is expected to have type
+  ApiBuilder.Composition OrderExample.Core.functionView
+of sort `Type (u + 1)`
+tests/acceptance/wrong_composition.lean:7:0: error: API acceptance failed during declaration elaboration
+TEST: no accepted receipt
+
+exit: 1

@@ -1,0 +1,5 @@
+$ lake env lean tests/acceptance/polymorphic.lean
+tests/acceptance/polymorphic.lean:6:34: error: recipe entrypoint must have no universe parameters
+TEST: no accepted receipt
+
+exit: 1

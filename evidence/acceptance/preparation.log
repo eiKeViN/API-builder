@@ -1,0 +1,6 @@
+$ lake env lean tests/acceptance/preparation.lean
+tests/acceptance/preparation.lean:6:0: error: intentional preparation error
+tests/acceptance/preparation.lean:6:0: error: API acceptance failed during preparation
+TEST: no accepted receipt
+
+exit: 1

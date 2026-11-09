@@ -1,0 +1,67 @@
+[
+  {
+    "test": "preparation",
+    "exit": 1,
+    "expected_diagnostic": "intentional preparation error"
+  },
+  {
+    "test": "validator",
+    "exit": 1,
+    "expected_diagnostic": "intentional validator error"
+  },
+  {
+    "test": "duplicate_owner",
+    "exit": 1,
+    "expected_diagnostic": "duplicate ownership"
+  },
+  {
+    "test": "late_proof",
+    "exit": 1,
+    "expected_diagnostic": "Type mismatch"
+  },
+  {
+    "test": "sorry_axiom",
+    "exit": 1,
+    "expected_diagnostic": "forbidden axiom"
+  },
+  {
+    "test": "wrong_entrypoint",
+    "exit": 1,
+    "expected_diagnostic": "unexpected type"
+  },
+  {
+    "test": "polymorphic",
+    "exit": 1,
+    "expected_diagnostic": "no universe parameters"
+  },
+  {
+    "test": "unused_field",
+    "exit": 1,
+    "expected_diagnostic": "unused field"
+  },
+  {
+    "test": "collision",
+    "exit": 1,
+    "expected_diagnostic": "output collision"
+  },
+  {
+    "test": "wrong_composition",
+    "exit": 1,
+    "expected_diagnostic": "Type mismatch"
+  },
+  {
+    "test": "removed_simp",
+    "exit": 1,
+    "expected_diagnostic": "registration mismatch"
+  },
+  {
+    "test": "extra_simp",
+    "exit": 1,
+    "expected_diagnostic": "registration mismatch"
+  },
+  {
+    "test": "competing_dictionary",
+    "exit": 1,
+    "expected_diagnostic": "definitional contract mismatch"
+  }
+]

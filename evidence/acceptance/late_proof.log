@@ -1,0 +1,11 @@
+$ lake env lean tests/acceptance/late_proof.lean
+tests/acceptance/late_proof.lean:6:0: error: Type mismatch
+  True.intro
+has type
+  True
+but is expected to have type
+  False
+tests/acceptance/late_proof.lean:6:0: error: API acceptance failed during declaration elaboration
+TEST: no accepted receipt
+
+exit: 1

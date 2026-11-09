@@ -4,8 +4,8 @@ public meta section
 namespace ApiBuilder
 open Lean Elab Command
 /-- Fixed host type and nominal type name; default meta checks remain enabled. -/
-private unsafe def evalRecipe (name : Name) : CommandElabM Recipe :=
-  evalConstCheck Recipe ``ApiBuilder.Recipe name
+private unsafe def evalSmokeRecipe (name : Name) : CommandElabM SmokeRecipe :=
+  evalConstCheck SmokeRecipe ``ApiBuilder.SmokeRecipe name
 syntax (name := smokeFamily) "api_smoke " ident " using " ident : command
 @[command_elab smokeFamily] unsafe def elabSmokeFamily : CommandElab := fun stx => do
   let recipeName ← liftCoreM <| realizeGlobalConstNoOverloadWithInfo stx[3]
@@ -13,7 +13,7 @@ syntax (name := smokeFamily) "api_smoke " ident " using " ident : command
   unless info.levelParams.isEmpty do
     throwErrorAt stx[3] "recipe entrypoint must have no universe parameters"
   recordExtraModUseFromDecl recipeName (isMeta := true)
-  let recipe ← evalRecipe recipeName
+  let recipe ← evalSmokeRecipe recipeName
   unless recipe.abiVersion == 0 do
     throwErrorAt stx[3] "unsupported recipe ABI {recipe.abiVersion}"
   withScope (fun scope => { scope with opts := scope.opts.setBool `Elab.async false }) do
