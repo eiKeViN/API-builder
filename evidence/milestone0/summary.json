@@ -1,0 +1,117 @@
+{
+  "consumer_sha256": "374db4c1596c374713accb61c6d15b56246aec30158a71cf85303c851d3ff5c9",
+  "tests": [
+    {
+      "test": "toolchain",
+      "command": [
+        "lean",
+        "--version"
+      ],
+      "exit": 0
+    },
+    {
+      "test": "clean-build",
+      "command": [
+        "lake",
+        "build"
+      ],
+      "exit": 0
+    },
+    {
+      "test": "baseline-value",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Check.lean"
+      ],
+      "exit": 0
+    },
+    {
+      "test": "stale-output-control",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Stale.lean"
+      ],
+      "exit": 1
+    },
+    {
+      "test": "recipe-body-rebuild",
+      "command": [
+        "lake",
+        "build"
+      ],
+      "exit": 0
+    },
+    {
+      "test": "recipe-body-value",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Check.lean"
+      ],
+      "exit": 0
+    },
+    {
+      "test": "updated-proof",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Stale.lean"
+      ],
+      "exit": 0
+    },
+    {
+      "test": "helper-body-rebuild",
+      "command": [
+        "lake",
+        "build"
+      ],
+      "exit": 0
+    },
+    {
+      "test": "helper-body-value",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Check.lean"
+      ],
+      "exit": 0
+    },
+    {
+      "test": "wrong-entrypoint",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Wrong.lean"
+      ],
+      "exit": 1
+    },
+    {
+      "test": "logged-failure",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Failure.lean"
+      ],
+      "exit": 1
+    },
+    {
+      "test": "unused-import",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "Unused.lean"
+      ],
+      "exit": 0
+    }
+  ]
+}

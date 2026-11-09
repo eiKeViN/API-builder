@@ -1,0 +1,5 @@
+name = "apiBuilder"
+version = "0.0.1"
+defaultTargets = ["ApiBuilder"]
+[[lean_lib]]
+name = "ApiBuilder"

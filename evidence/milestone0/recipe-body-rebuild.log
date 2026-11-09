@@ -1,0 +1,6 @@
+$ lake build
+✔ [10/14] Built SmokeProvider (493ms)
+✔ [12/14] Built SmokeConsumer (393ms)
+Build completed successfully (14 jobs).
+
+exit: 0

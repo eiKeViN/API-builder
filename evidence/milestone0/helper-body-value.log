@@ -1,0 +1,4 @@
+$ lake env lean Check.lean
+32
+
+exit: 0

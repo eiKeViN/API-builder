@@ -1,0 +1,9 @@
+$ lake env lean Stale.lean
+Stale.lean:2:34: error: Type mismatch
+  rfl
+has type
+  ?m.5 = ?m.5
+but is expected to have type
+  Generated.value = 22
+
+exit: 1

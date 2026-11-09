@@ -1,0 +1,11 @@
+name = "smokeConsumer"
+version = "0.0.1"
+defaultTargets = ["SmokeConsumer"]
+[[require]]
+name = "apiBuilder"
+path = "../.."
+[[require]]
+name = "smokeProvider"
+path = "../provider"
+[[lean_lib]]
+name = "SmokeConsumer"

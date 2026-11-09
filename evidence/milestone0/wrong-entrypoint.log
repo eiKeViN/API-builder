@@ -1,0 +1,4 @@
+$ lake env lean Wrong.lean
+Wrong.lean:4:0: error: unexpected type at 'SmokeProvider.wrong', `ApiBuilder.Recipe` expected
+
+exit: 1

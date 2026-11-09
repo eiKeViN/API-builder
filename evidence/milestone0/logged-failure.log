@@ -1,0 +1,5 @@
+$ lake env lean Failure.lean
+Failure.lean:4:0: error: intentional provider generation failure
+Failure.lean:4:0: error: recipe generation logged errors
+
+exit: 1

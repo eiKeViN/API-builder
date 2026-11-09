@@ -1,0 +1,7 @@
+name = "smokeProvider"
+version = "0.0.1"
+[[require]]
+name = "apiBuilder"
+path = "../.."
+[[lean_lib]]
+name = "SmokeProvider"

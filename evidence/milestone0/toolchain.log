@@ -1,0 +1,4 @@
+$ lean --version
+Lean (version 4.36.0-rc2, x86_64-unknown-linux-gnu, commit b35cb10cf2ced51a2fd1880cfdbf75c71ab7a35a, Release)
+
+exit: 0
