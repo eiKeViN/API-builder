@@ -39,6 +39,12 @@ The executable tests, not the old research plans, establish these results.
 
 ## Remaining limitations
 
+The separate [API-family validation](API_FAMILY_VALIDATION.md) executes 47 bounded
+comparisons and adverse controls for map/comap, scheme-property installation and
+representation evolution. Dedicated commands already solve the generation tasks;
+the experiment does not establish a framework productivity advantage. Its recipe
+adapters are kept outside the public SDK in `experiments/api-families`.
+
 - No independent-author usability study: the provider is independently packaged
   and uses a frozen public SDK, but was written by the same agent.
 - The two independent consumer families share a consumer test package.

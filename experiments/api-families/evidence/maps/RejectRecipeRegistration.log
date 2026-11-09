@@ -1,0 +1,4 @@
+$ lean negative/MapBaseline/RejectRecipeRegistration.lean
+negative/MapBaseline/RejectRecipeRegistration.lean:7:0: error: registration mismatch 'simp' on 'MapBaseline.Recipe.GroupAPI.comap_inf'
+
+exit: 1

@@ -1,0 +1,651 @@
+[
+  {
+    "group": "setup",
+    "case": "sdk",
+    "command": [
+      "lake",
+      "build",
+      "ApiBuilder.FamilyElab"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.205,
+    "log": "evidence/setup/sdk.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.Contract",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/Contract.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/Contract.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.759,
+    "log": "evidence/maps/MapBaseline.Contract.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.Handwritten",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/Handwritten.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/Handwritten.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.596,
+    "log": "evidence/maps/MapBaseline.Handwritten.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.Client",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/Client.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/Client.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.213,
+    "log": "evidence/maps/MapBaseline.Client.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.GenericClient",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/GenericClient.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/GenericClient.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.309,
+    "log": "evidence/maps/MapBaseline.GenericClient.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.MacroCommand",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/MacroCommand.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/MacroCommand.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.415,
+    "log": "evidence/maps/MapBaseline.MacroCommand.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.Macro",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/Macro.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/Macro.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.606,
+    "log": "evidence/maps/MapBaseline.Macro.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.MacroClient",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/MacroClient.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/MacroClient.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.218,
+    "log": "evidence/maps/MapBaseline.MacroClient.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.MacroNamedArguments",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/MacroNamedArguments.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/MacroNamedArguments.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.265,
+    "log": "evidence/maps/MapBaseline.MacroNamedArguments.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.Framework",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/Framework.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/Framework.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.29,
+    "log": "evidence/maps/MapBaseline.Framework.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.Specifications",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/Specifications.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/Specifications.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.89,
+    "log": "evidence/maps/MapBaseline.Specifications.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.Recipe",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/Recipe.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/Recipe.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.901,
+    "log": "evidence/maps/MapBaseline.Recipe.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.RecipeClient",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/RecipeClient.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/RecipeClient.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.238,
+    "log": "evidence/maps/MapBaseline.RecipeClient.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.NamedArguments",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/NamedArguments.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/NamedArguments.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.135,
+    "log": "evidence/maps/MapBaseline.NamedArguments.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.AllContracts",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/AllContracts.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/AllContracts.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.143,
+    "log": "evidence/maps/MapBaseline.AllContracts.log"
+  },
+  {
+    "group": "maps",
+    "case": "MapBaseline.ImportedCheck",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/ImportedCheck.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/ImportedCheck.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.499,
+    "log": "evidence/maps/MapBaseline.ImportedCheck.log"
+  },
+  {
+    "group": "maps",
+    "case": "RejectMissing",
+    "command": [
+      "lean",
+      "negative/MapBaseline/RejectMissing.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "missing role",
+    "passed": true,
+    "elapsed_seconds": 1.588,
+    "log": "evidence/maps/RejectMissing.log"
+  },
+  {
+    "group": "maps",
+    "case": "RejectMacroRegistration",
+    "command": [
+      "lean",
+      "negative/MapBaseline/RejectMacroRegistration.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "missing simp registration",
+    "passed": true,
+    "elapsed_seconds": 1.26,
+    "log": "evidence/maps/RejectMacroRegistration.log"
+  },
+  {
+    "group": "maps",
+    "case": "RejectRecipeRegistration",
+    "command": [
+      "lean",
+      "negative/MapBaseline/RejectRecipeRegistration.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "registration mismatch",
+    "passed": true,
+    "elapsed_seconds": 1.739,
+    "log": "evidence/maps/RejectRecipeRegistration.log"
+  },
+  {
+    "group": "maps",
+    "case": "RejectExtraAssumption",
+    "command": [
+      "lean",
+      "negative/MapBaseline/RejectExtraAssumption.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "map contract: binder mismatch for 'comap_inf'",
+    "passed": true,
+    "elapsed_seconds": 1.892,
+    "log": "evidence/maps/RejectExtraAssumption.log"
+  },
+  {
+    "group": "maps",
+    "case": "RejectNativeGold",
+    "command": [
+      "lean",
+      "negative/MapBaseline/RejectNativeGold.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "generated proof uses native gold API",
+    "passed": true,
+    "elapsed_seconds": 1.572,
+    "log": "evidence/maps/RejectNativeGold.log"
+  },
+  {
+    "group": "maps",
+    "case": "RejectBinderName",
+    "command": [
+      "lean",
+      "negative/MapBaseline/RejectBinderName.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "public binder name mismatch",
+    "passed": true,
+    "elapsed_seconds": 1.204,
+    "log": "evidence/maps/RejectBinderName.log"
+  },
+  {
+    "group": "geometry",
+    "case": "AGExperiment.Install",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/AGExperiment/Install.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/AGExperiment/Install.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 4.417,
+    "log": "evidence/geometry/AGExperiment.Install.log"
+  },
+  {
+    "group": "geometry",
+    "case": "AGExperiment.Core",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/AGExperiment/Core.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/AGExperiment/Core.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 2.77,
+    "log": "evidence/geometry/AGExperiment.Core.log"
+  },
+  {
+    "group": "geometry",
+    "case": "AGExperiment.NoInstallation",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/AGExperiment/NoInstallation.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/AGExperiment/NoInstallation.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 2.219,
+    "log": "evidence/geometry/AGExperiment.NoInstallation.log"
+  },
+  {
+    "group": "geometry",
+    "case": "AGExperiment.Tests",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/AGExperiment/Tests.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/AGExperiment/Tests.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 3.234,
+    "log": "evidence/geometry/AGExperiment.Tests.log"
+  },
+  {
+    "group": "geometry",
+    "case": "RejectFiniteSource",
+    "command": [
+      "lean",
+      "negative/AGExperiment/RejectFiniteSource.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "IsZariskiLocalAtSource",
+    "passed": true,
+    "elapsed_seconds": 2.491,
+    "log": "evidence/geometry/RejectFiniteSource.log"
+  },
+  {
+    "group": "geometry",
+    "case": "RejectProperSource",
+    "command": [
+      "lean",
+      "negative/AGExperiment/RejectProperSource.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "IsZariskiLocalAtSource",
+    "passed": true,
+    "elapsed_seconds": 2.369,
+    "log": "evidence/geometry/RejectProperSource.log"
+  },
+  {
+    "group": "geometry",
+    "case": "AGExperiment.Recipe",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/AGExperiment/Recipe.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/AGExperiment/Recipe.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 2.398,
+    "log": "evidence/geometry/AGExperiment.Recipe.log"
+  },
+  {
+    "group": "geometry",
+    "case": "AGExperiment.RecipeTests",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/AGExperiment/RecipeTests.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/AGExperiment/RecipeTests.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 2.385,
+    "log": "evidence/geometry/AGExperiment.RecipeTests.log"
+  },
+  {
+    "group": "geometry",
+    "case": "RecipeRejectFiniteSource",
+    "command": [
+      "lean",
+      "negative/AGExperiment/RecipeRejectFiniteSource.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "IsZariskiLocalAtSource",
+    "passed": true,
+    "elapsed_seconds": 1.853,
+    "log": "evidence/geometry/RecipeRejectFiniteSource.log"
+  },
+  {
+    "group": "geometry",
+    "case": "RecipeRejectRegistration",
+    "command": [
+      "lean",
+      "negative/AGExperiment/RecipeRejectRegistration.lean"
+    ],
+    "expected_success": false,
+    "returncode": 1,
+    "required_diagnostic": "registration mismatch 'instance'",
+    "passed": true,
+    "elapsed_seconds": 2.191,
+    "log": "evidence/geometry/RecipeRejectRegistration.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.Reference",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/Reference.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/Reference.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.205,
+    "log": "evidence/holdout/Holdout.Reference.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.Macro",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/Macro.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/Macro.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.627,
+    "log": "evidence/holdout/Holdout.Macro.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.MacroClient",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/MacroClient.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/MacroClient.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 2.082,
+    "log": "evidence/holdout/Holdout.MacroClient.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.Specifications",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/Specifications.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/Specifications.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.442,
+    "log": "evidence/holdout/Holdout.Specifications.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.Recipe",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/Recipe.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/Recipe.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.392,
+    "log": "evidence/holdout/Holdout.Recipe.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.RecipeClient",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/RecipeClient.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/RecipeClient.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.514,
+    "log": "evidence/holdout/Holdout.RecipeClient.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.NamedClient",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/NamedClient.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/NamedClient.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 2.026,
+    "log": "evidence/holdout/Holdout.NamedClient.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.Checks",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/Checks.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/Checks.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.59,
+    "log": "evidence/holdout/Holdout.Checks.log"
+  },
+  {
+    "group": "holdout",
+    "case": "Holdout.ImportedCheck",
+    "command": [
+      "lean",
+      "-o",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/ImportedCheck.olean",
+      "/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/ImportedCheck.lean"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 1.365,
+    "log": "evidence/holdout/Holdout.ImportedCheck.log"
+  },
+  {
+    "group": "setup",
+    "case": "evolution-suite",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "run_evolution.py"
+    ],
+    "expected_success": true,
+    "returncode": 0,
+    "required_diagnostic": null,
+    "passed": true,
+    "elapsed_seconds": 29.591,
+    "log": "evidence/setup/evolution-suite.log"
+  }
+]

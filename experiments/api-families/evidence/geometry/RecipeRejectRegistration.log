@@ -1,0 +1,4 @@
+$ lean negative/AGExperiment/RecipeRejectRegistration.lean
+negative/AGExperiment/RecipeRejectRegistration.lean:7:0: error: registration mismatch 'instance' on 'AGExperiment.ProbeFlat.api_fst'
+
+exit: 1

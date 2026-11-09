@@ -1,0 +1,4 @@
+$ lean negative/MapBaseline/RejectBinderName.lean
+negative/MapBaseline/RejectBinderName.lean:16:0: error: map contract: public binder name mismatch for 'map_sup'
+
+exit: 1

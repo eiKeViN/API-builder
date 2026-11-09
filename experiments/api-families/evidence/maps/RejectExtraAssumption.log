@@ -1,0 +1,4 @@
+$ lean negative/MapBaseline/RejectExtraAssumption.lean
+negative/MapBaseline/RejectExtraAssumption.lean:25:0: error: map contract: binder mismatch for 'comap_inf'
+
+exit: 1

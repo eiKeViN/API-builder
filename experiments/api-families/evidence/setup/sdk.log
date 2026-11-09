@@ -1,0 +1,4 @@
+$ lake build ApiBuilder.FamilyElab
+Build completed successfully (5 jobs).
+
+exit: 0

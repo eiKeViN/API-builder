@@ -54,6 +54,7 @@ multiple alternative APIs for the same family together.
 - [Public recipe SDK](docs/RECIPE_SDK.md)
 - [Independent provider](packages/pointed/README.md)
 - [Executed evolution tests](docs/MILESTONE3-4.md)
+- [API-family validation against dedicated generators](docs/API_FAMILY_VALIDATION.md)
 
 This is a bounded prototype, with local source upgrade tests and explicit supported
 contracts. The remaining hardening and independent-author evaluation are listed

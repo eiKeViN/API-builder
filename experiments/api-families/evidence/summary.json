@@ -1,0 +1,27 @@
+{
+  "lean": "4.36.0-rc2",
+  "mathlib": "6da929dc62a7af33b577a22d4a01c08ddfd4f8f6",
+  "expected_outcomes": {
+    "maps": 21,
+    "geometry": 10,
+    "holdout": 9,
+    "evolution": 7
+  },
+  "total_expected_outcomes": 47,
+  "all_passed": true,
+  "frozen_sources": {
+    "MapBaseline/MacroCommand.lean": "74a441bef4c7e3b2660df0beac8e0d4daa34ad402105164bf91c1c15a49ff3d6",
+    "MapBaseline/Framework.lean": "51a7fde0eecc1da41b6d34aadf884b8d5bd3516c8998c62b51a44aae9e38193b",
+    "MapBaseline/Contract.lean": "f664497f1893d511e731bead1a93deb793d6f961d29a9d038d397dc2898d10e5"
+  },
+  "sdk_sources": {
+    "ApiBuilder/Family.lean": "c43143a71e103bfe8222eb818843a1b6202e3e286e2dcec0c4d44e2eff286e86",
+    "ApiBuilder/FamilyElab.lean": "ff7ffa767ec37d78e01790822ebd059f79a3766c7294d45a3244ddc132f73a94"
+  },
+  "limits": [
+    "Bounded source and compile tests, not a productivity or performance benchmark.",
+    "Separate-agent adaptation with shared context; no independent human-author study.",
+    "Signature checks permit only bijective universe renaming; named binders are checked.",
+    "Direct proof dependency checks run at creation; imported rechecks cover types and effects."
+  ]
+}

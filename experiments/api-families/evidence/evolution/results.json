@@ -1,0 +1,158 @@
+{
+  "lean": "4.36.0-rc2",
+  "mathlib_revision": "6da929dc62a7af33b577a22d4a01c08ddfd4f8f6",
+  "stable_hashes": {
+    "client": "72bbb9611f7c8257dfb9c9f9359f71e5516505cdbc206b380a26a9c392df54f1",
+    "contract": "e35cb1835e918f7d8cff6af683005a126b1a0bbccfb8caff66018f5fd2bd3d48"
+  },
+  "cases": [
+    {
+      "case": "01-v1-clean",
+      "variant": "v1.lean",
+      "command": [
+        "lake",
+        "build",
+        "Evolution.Client"
+      ],
+      "clean_build": true,
+      "expected_success": true,
+      "exit_code": 0,
+      "expected_diagnostics": [],
+      "diagnostics_matched": true,
+      "expectation_met": true,
+      "elapsed_seconds": 4.195,
+      "client_sha256": "72bbb9611f7c8257dfb9c9f9359f71e5516505cdbc206b380a26a9c392df54f1",
+      "contract_sha256": "e35cb1835e918f7d8cff6af683005a126b1a0bbccfb8caff66018f5fd2bd3d48",
+      "source_sha256": "42ddd14beb5d6e29079ef4c5215d381282b1bb91ed7ed308e727dcc7c8a92451"
+    },
+    {
+      "case": "02-v2-old-rfl-rejected",
+      "variant": "v2-broken-rfl.lean",
+      "command": [
+        "lake",
+        "build",
+        "Evolution.Client"
+      ],
+      "clean_build": false,
+      "expected_success": false,
+      "exit_code": 1,
+      "expected_diagnostics": [
+        "Evolution/Map.lean",
+        "Type mismatch",
+        "Iff.rfl"
+      ],
+      "diagnostics_matched": true,
+      "expectation_met": true,
+      "elapsed_seconds": 2.69,
+      "client_sha256": "72bbb9611f7c8257dfb9c9f9359f71e5516505cdbc206b380a26a9c392df54f1",
+      "contract_sha256": "e35cb1835e918f7d8cff6af683005a126b1a0bbccfb8caff66018f5fd2bd3d48",
+      "source_sha256": "bb9f73f9395c41703e61d426637403ac0a695d76c23ecaa0d9cc0ea7989f9eea"
+    },
+    {
+      "case": "03-v2-adapter-incremental",
+      "variant": "v2-fixed.lean",
+      "command": [
+        "lake",
+        "build",
+        "Evolution.Client"
+      ],
+      "clean_build": false,
+      "expected_success": true,
+      "exit_code": 0,
+      "expected_diagnostics": [],
+      "diagnostics_matched": true,
+      "expectation_met": true,
+      "elapsed_seconds": 4.013,
+      "client_sha256": "72bbb9611f7c8257dfb9c9f9359f71e5516505cdbc206b380a26a9c392df54f1",
+      "contract_sha256": "e35cb1835e918f7d8cff6af683005a126b1a0bbccfb8caff66018f5fd2bd3d48",
+      "source_sha256": "9ae230bb1ccb2c12af0fed78c8d1eb3b13adbb8afe1bf788287444d60dfbfc44"
+    },
+    {
+      "case": "04-v2-adapter-clean",
+      "variant": "v2-fixed.lean",
+      "command": [
+        "lake",
+        "build",
+        "Evolution.Client"
+      ],
+      "clean_build": true,
+      "expected_success": true,
+      "exit_code": 0,
+      "expected_diagnostics": [],
+      "diagnostics_matched": true,
+      "expectation_met": true,
+      "elapsed_seconds": 6.255,
+      "client_sha256": "72bbb9611f7c8257dfb9c9f9359f71e5516505cdbc206b380a26a9c392df54f1",
+      "contract_sha256": "e35cb1835e918f7d8cff6af683005a126b1a0bbccfb8caff66018f5fd2bd3d48",
+      "source_sha256": "9ae230bb1ccb2c12af0fed78c8d1eb3b13adbb8afe1bf788287444d60dfbfc44"
+    },
+    {
+      "case": "05-body-mirror-core-compiles",
+      "variant": "v2-body-mirror.lean",
+      "command": [
+        "lake",
+        "build",
+        "Evolution.Map"
+      ],
+      "clean_build": false,
+      "expected_success": true,
+      "exit_code": 0,
+      "expected_diagnostics": [],
+      "diagnostics_matched": true,
+      "expectation_met": true,
+      "elapsed_seconds": 3.467,
+      "client_sha256": "72bbb9611f7c8257dfb9c9f9359f71e5516505cdbc206b380a26a9c392df54f1",
+      "contract_sha256": "e35cb1835e918f7d8cff6af683005a126b1a0bbccfb8caff66018f5fd2bd3d48",
+      "source_sha256": "1b52b18bcbb695b2eaed9daab0f5a2ca2b0d2edc91d1e5cc921dd7239b9c0aa0"
+    },
+    {
+      "case": "06-body-mirror-contract-rejected",
+      "variant": "v2-body-mirror.lean",
+      "command": [
+        "lake",
+        "build",
+        "Evolution.Contract"
+      ],
+      "clean_build": false,
+      "expected_success": false,
+      "exit_code": 1,
+      "expected_diagnostics": [
+        "Evolution/Contract.lean",
+        "Type mismatch",
+        "mem_map"
+      ],
+      "diagnostics_matched": true,
+      "expectation_met": true,
+      "elapsed_seconds": 4.366,
+      "client_sha256": "72bbb9611f7c8257dfb9c9f9359f71e5516505cdbc206b380a26a9c392df54f1",
+      "contract_sha256": "e35cb1835e918f7d8cff6af683005a126b1a0bbccfb8caff66018f5fd2bd3d48",
+      "source_sha256": "1b52b18bcbb695b2eaed9daab0f5a2ca2b0d2edc91d1e5cc921dd7239b9c0aa0"
+    },
+    {
+      "case": "07-restored-final",
+      "variant": "v2-fixed.lean",
+      "command": [
+        "lake",
+        "build",
+        "Evolution.Client"
+      ],
+      "clean_build": false,
+      "expected_success": true,
+      "exit_code": 0,
+      "expected_diagnostics": [],
+      "diagnostics_matched": true,
+      "expectation_met": true,
+      "elapsed_seconds": 4.511,
+      "client_sha256": "72bbb9611f7c8257dfb9c9f9359f71e5516505cdbc206b380a26a9c392df54f1",
+      "contract_sha256": "e35cb1835e918f7d8cff6af683005a126b1a0bbccfb8caff66018f5fd2bd3d48",
+      "source_sha256": "9ae230bb1ccb2c12af0fed78c8d1eb3b13adbb8afe1bf788287444d60dfbfc44"
+    }
+  ],
+  "all_expectations_met": true,
+  "limits": [
+    "A controlled subgroup image experiment, not a full mathlib refactor.",
+    "The type checker fixes a chosen theorem type; it is not a general semantic comparator.",
+    "Body-mirroring output is supplied explicitly; no new generator is claimed here.",
+    "Elapsed times include shared environment effects and are not performance benchmarks."
+  ]
+}
