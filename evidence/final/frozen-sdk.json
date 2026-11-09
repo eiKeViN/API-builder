@@ -1,0 +1,13 @@
+{
+  "framework_commit": "2e8d5a31561221b549f6f79619dd580f6b97fb6f",
+  "unchanged": true,
+  "source_sha256": {
+    "ApiBuilder/Elab.lean": "ce49e5ec5a29d8b937bf8dcbdc15ff224b25734f7bd6902ef65f2f42fc622937",
+    "ApiBuilder/FamilyElab.lean": "ff7ffa767ec37d78e01790822ebd059f79a3766c7294d45a3244ddc132f73a94",
+    "ApiBuilder/Family.lean": "c43143a71e103bfe8222eb818843a1b6202e3e286e2dcec0c4d44e2eff286e86",
+    "ApiBuilder/Mathematics.lean": "d7434d8bad0383fb7c2e168a643f5538bd5d7645d84868b09c767dc5ece2ec09",
+    "ApiBuilder/SDK.lean": "4c779d22200ea23af250ce41165c1114b6bb98a4623ee5630d857cc7de318d0d",
+    "ApiBuilder/Recipes/BundledMap.lean": "cabb008d553e7aabbd5ac3ba4966d3b9b07a52268e89c2e8579ec3206d574d00"
+  },
+  "acceptance_failure_cases": 15
+}

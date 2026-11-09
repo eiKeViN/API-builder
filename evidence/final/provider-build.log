@@ -1,0 +1,8 @@
+$ lake build
+info: pointedRecipes: no previous manifest, creating one from scratch
+info: toolchain not updated; already up-to-date
+info: mathlib: running post-update hooks
+✔ [1339/1341] Built PointedRecipes (679ms)
+Build completed successfully (1341 jobs).
+
+exit: 0

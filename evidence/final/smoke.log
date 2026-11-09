@@ -1,0 +1,5 @@
+$ python3 scripts/test_smoke.py
+PASS: clean build, fresh import, 21 → 22 → 32, stale control, failures, unused import
+Isolated test workspace: /tmp/api-builder-smoke-zuxvig00
+
+exit: 0

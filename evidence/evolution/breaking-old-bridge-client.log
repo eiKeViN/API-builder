@@ -1,0 +1,10 @@
+$ lake build Extended.OrderClient
+✖ [1348/1349] Building Extended.OrderClient (606ms)
+trace: .> LEAN_PATH=/workspace/API-builder/.lake/packages/Cli/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/batteries/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/Qq/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/aesop/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/plausible/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/mathlib/.lake/build/lib/lean:/tmp/api-builder-evolution-ke2zjv4s/repo/.lake/build/lib/lean:/tmp/api-builder-evolution-ke2zjv4s/repo/packages/pointed/.lake/build/lib/lean:/tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/lib/lean /workspace/toolchains/lean-4.36.0-rc2-linux/bin/lean /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/Extended/OrderClient.lean -o /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/lib/lean/Extended/OrderClient.olean -i /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/lib/lean/Extended/OrderClient.ilean -c /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/ir/Extended/OrderClient.c --setup /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/ir/Extended/OrderClient.setup.json --json
+info: Extended/OrderClient.lean:13:0: OrderExample.Map.ext_iff.{u} {X✝ Y✝ : Obj} {f✝ g✝ : Map X✝ Y✝} : f✝ = g✝ ↔ ∀ (x : X✝.Carrier), f✝ x = g✝ x
+error: Extended/OrderClient.lean:19:2: Unknown constant `OrderExample.Map.toPointedHom_comp`
+Some required targets logged failures:
+- Extended.OrderClient
+error: build failed
+
+exit: 1

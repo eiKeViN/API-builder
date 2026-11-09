@@ -1,0 +1,9 @@
+name = "pointedRecipes"
+version = "0.1.0"
+packagesDir = "../../.lake/packages"
+defaultTargets = ["PointedRecipes"]
+[[require]]
+name = "apiBuilder"
+path = "../.."
+[[lean_lib]]
+name = "PointedRecipes"

@@ -1,0 +1,12 @@
+$ lake env lean tests/acceptance/incompatible_binding.lean
+tests/acceptance/incompatible_binding.lean:7:0: error: Function expected at
+  comp
+but this term has type
+  ℕ
+
+Note: Expected a function because this term is being applied to the argument
+  g✝
+tests/acceptance/incompatible_binding.lean:7:0: error: API acceptance failed during declaration elaboration
+TEST: no accepted receipt
+
+exit: 1

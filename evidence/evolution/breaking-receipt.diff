@@ -1,0 +1,24 @@
+--- pointed
++++ breaking
+@@ -73,8 +73,8 @@
+                  owner := `pointedBridge,
+                  bound := false,
+                  registrations := #[] },
+-               { role := `toPointedHom_comp,
+-                 name := `OrderExample.Map.toPointedHom_comp,
++               { role := `pointedComposition,
++                 name := `OrderExample.Map.pointedComposition,
+                  owner := `pointedBridge,
+                  bound := false,
+                  registrations := #[] }],
+@@ -154,8 +154,8 @@
+                  owner := `pointedBridge,
+                  bound := false,
+                  registrations := #[] },
+-               { role := `toPointedHom_comp,
+-                 name := `ContinuousExample.Map.toPointedHom_comp,
++               { role := `pointedComposition,
++                 name := `ContinuousExample.Map.pointedComposition,
+                  owner := `pointedBridge,
+                  bound := false,
+                  registrations := #[] }],

@@ -50,6 +50,16 @@
     "expected_diagnostic": "Type mismatch"
   },
   {
+    "test": "mismatched_view_ports",
+    "exit": 1,
+    "expected_diagnostic": "Type mismatch"
+  },
+  {
+    "test": "incompatible_binding",
+    "exit": 1,
+    "expected_diagnostic": "Function expected"
+  },
+  {
     "test": "removed_simp",
     "exit": 1,
     "expected_diagnostic": "registration mismatch"

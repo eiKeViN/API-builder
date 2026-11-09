@@ -1,7 +1,7 @@
 $ lake build
-✔ [8/14] Built SmokeProvider.Helper (526ms)
-✔ [10/14] Built SmokeProvider (522ms)
-✔ [12/14] Built SmokeConsumer (448ms)
+✔ [8/14] Built SmokeProvider.Helper (512ms)
+✔ [10/14] Built SmokeProvider (544ms)
+✔ [12/14] Built SmokeConsumer (456ms)
 Build completed successfully (14 jobs).
 
 exit: 0

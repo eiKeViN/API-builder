@@ -1,0 +1,3 @@
+$ lake env lean tests/math/Contracts.lean
+
+exit: 0

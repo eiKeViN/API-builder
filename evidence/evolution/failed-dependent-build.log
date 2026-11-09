@@ -1,0 +1,11 @@
+$ lake build Extended.OrderOldClient
+✖ [1346/1349] Building Extended.Order (754ms)
+trace: .> LEAN_PATH=/workspace/API-builder/.lake/packages/Cli/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/batteries/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/Qq/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/aesop/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/plausible/.lake/build/lib/lean:/workspace/API-builder/.lake/packages/mathlib/.lake/build/lib/lean:/tmp/api-builder-evolution-ke2zjv4s/repo/.lake/build/lib/lean:/tmp/api-builder-evolution-ke2zjv4s/repo/packages/pointed/.lake/build/lib/lean:/tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/lib/lean /workspace/toolchains/lean-4.36.0-rc2-linux/bin/lean /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/Extended/Order.lean -o /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/lib/lean/Extended/Order.olean -i /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/lib/lean/Extended/Order.ilean -c /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/ir/Extended/Order.c --setup /tmp/api-builder-evolution-ke2zjv4s/repo/tests/extended/.lake/build/ir/Extended/Order.setup.json --json
+error: Extended/Order.lean:6:0: intentional upgrade failure
+error: Extended/Order.lean:6:0: API acceptance failed during execution
+error: Extended/Order.lean:11:0: expected one accepted receipt for 'OrderExample.Map', found 0
+Some required targets logged failures:
+- Extended.Order
+error: build failed
+
+exit: 1

@@ -1,0 +1,12 @@
+name = "extendedConsumers"
+version = "0.1.0"
+packagesDir = "../../.lake/packages"
+defaultTargets = ["Extended"]
+[[require]]
+name = "apiBuilder"
+path = "../.."
+[[require]]
+name = "pointedRecipes"
+path = "../../packages/pointed"
+[[lean_lib]]
+name = "Extended"

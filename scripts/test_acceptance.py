@@ -36,6 +36,8 @@ for label,recipe,diagnostic in [
 cases['unused_field']=(base+call.replace('RECIPE','ApiBuilder.Recipes.bundledMap')+'  typo := OrderExample.Core.functionView\n'+absent,'unused field')
 cases['collision']=(base+'public def OrderExample.Map.ext_iff : Nat := 7\n'+call.replace('RECIPE','ApiBuilder.Recipes.bundledMap')+absent,'output collision')
 cases['wrong_composition']=(base+'public def wrongComposition : Nat := 0\n'+call.replace('RECIPE','ApiBuilder.Recipes.bundledMap').replace('composition := OrderExample.Core.composition','composition := wrongComposition')+absent,'Type mismatch')
+cases['mismatched_view_ports']=(base.replace('public import Examples.Order.Core','public import Examples.Order.Core\npublic import Examples.Continuous.Core')+call.replace('RECIPE','ApiBuilder.Recipes.bundledMap').replace('composition := OrderExample.Core.composition','composition := ContinuousExample.Core.composition')+absent,'Type mismatch')
+cases['incompatible_binding']=(base+'public def OrderExample.Map.comp : Nat := 0\n'+call.replace('RECIPE','ApiBuilder.Recipes.bundledMap')+'  bind_comp := OrderExample.Map.comp\n'+absent,'Function expected')
 post='''module
 public import Examples.Order.Generated
 meta import ApiBuilder.FamilyElab

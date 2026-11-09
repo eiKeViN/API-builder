@@ -1,0 +1,3 @@
+$ lake env lean Unused.lean
+
+exit: 0

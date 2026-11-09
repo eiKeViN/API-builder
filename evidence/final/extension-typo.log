@@ -1,0 +1,4 @@
+$ lake env lean Typo.lean
+Typo.lean:11:2: error: unused field 'typo'
+
+exit: 1

@@ -1,0 +1,15 @@
+$ python3 scripts/test_evolution.py
+PASS clean-base
+PASS base-receipts
+PASS compatible-upgrade
+PASS pointed-receipts
+PASS breaking-generators
+PASS breaking-receipts
+PASS breaking-old-bridge-client
+PASS late-failure-rebuild
+PASS failed-dependent-build
+PASS recovery
+PASS recovered-receipts
+Isolated workspace: /tmp/api-builder-evolution-ke2zjv4s/repo
+
+exit: 0

@@ -1,0 +1,16 @@
+$ python3 scripts/test_acceptance.py
+PASS preparation
+PASS validator
+PASS duplicate_owner
+PASS late_proof
+PASS sorry_axiom
+PASS wrong_entrypoint
+PASS polymorphic
+PASS unused_field
+PASS collision
+PASS wrong_composition
+PASS removed_simp
+PASS extra_simp
+PASS competing_dictionary
+
+exit: 0

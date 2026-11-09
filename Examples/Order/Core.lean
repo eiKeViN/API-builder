@@ -10,7 +10,7 @@ structure Obj where
   point : Carrier
 attribute [instance] Obj.preorder
 structure Map (X Y : Obj.{u}) extends OrderHom X.Carrier Y.Carrier where
-  map_point : toOrderHom X.point = Y.point
+  map_point' : toOrderHom X.point = Y.point
 namespace Core
 def functionView : ApiBuilder.FunctionView Obj.{u} Obj.Carrier Map where
   view f := f.toOrderHom
@@ -24,7 +24,7 @@ def composition : ApiBuilder.Composition functionView.{u} where
   identity X := ⟨OrderHom.id, rfl⟩
   compose {X Y Z} g f := ⟨g.toOrderHom.comp f.toOrderHom, by
     change g.toOrderHom (f.toOrderHom X.point) = _
-    rw [f.map_point, g.map_point]⟩
+    rw [f.map_point', g.map_point']⟩
   identity_apply _ _ := rfl
   compose_apply _ _ _ := rfl
 end Core

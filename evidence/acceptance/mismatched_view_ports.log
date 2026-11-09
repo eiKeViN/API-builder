@@ -1,0 +1,11 @@
+$ lake env lean tests/acceptance/mismatched_view_ports.lean
+tests/acceptance/mismatched_view_ports.lean:7:0: error: Type mismatch
+  ContinuousExample.Core.composition
+has type
+  ApiBuilder.Composition ContinuousExample.Core.functionView
+but is expected to have type
+  ApiBuilder.Composition OrderExample.Core.functionView
+tests/acceptance/mismatched_view_ports.lean:7:0: error: API acceptance failed during declaration elaboration
+TEST: no accepted receipt
+
+exit: 1
