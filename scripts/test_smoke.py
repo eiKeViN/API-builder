@@ -11,6 +11,7 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'evidence' / 'milestone0'
 OUT.mkdir(parents=True, exist_ok=True)
+(OUT / 'summary.json').unlink(missing_ok=True)
 work = Path(tempfile.mkdtemp(prefix='api-builder-smoke-'))
 repo = work / 'repo'
 shutil.copytree(ROOT, repo, ignore=shutil.ignore_patterns('.git', '.lake', 'evidence', '__pycache__'))

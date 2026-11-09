@@ -58,3 +58,27 @@ and handwritten golden API (milestone 1); then ten-role generation and acceptanc
 barriers; then external PointedRecipes and maintenance gates. Pin mathlib to
 `6da929dc62a7af33b577a22d4a01c08ddfd4f8f6` and its Aesop dependency to
 `7d11bfa88558f8d3d90afdf6bd877ed70001498d` when those dependencies enter the build.
+
+## Mathematical foundation executed after milestone 0
+
+`ApiBuilder/Mathematics.lean` implements the specified three-universe
+FunctionView/Composition records directly using Lean's existing Function.Injective.
+It proves extensionality, both units and associativity without mathlib or new axioms.
+The root library builds this module.
+
+`lake env lean tests/math/Contracts.lean` is a fresh public-import test. It checks
+choice-defined noncomputable identity/composition using only their propositional
+laws, proves that forgetting a Bool tag is not injective, and proves that the set
+{identity, successor} is not closed under the required composition. These last two
+are checked impossibility theorems, **not** generated malformed-input rejection
+fixtures. Native `collectAxioms` checks the generic proofs and choice-based core
+against propext/Classical.choice/Quot.sound; no sorryAx is permitted. Logs are in
+`evidence/mathematics`.
+
+The exact mathlib commit was fetched into ignored `.lake/packages/mathlib` and its
+lean-toolchain and resolved Aesop pin verified against the specification. It has
+not been added as a package dependency or built: the current tested foundation
+needs only Lean. The two required mathlib-backed fixture cores and golden API are
+still outstanding, so **milestone 1 is partial**. Milestones 2–4 are unimplemented.
+There is no observed permission or source-access blocker. This checkpoint is a
+bounded initial construction delivery, not a claim of full prototype completion.

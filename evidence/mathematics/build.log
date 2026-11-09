@@ -1,0 +1,5 @@
+$ lake build
+✔ [6/10] Built ApiBuilder.Mathematics (225ms)
+Build completed successfully (10 jobs).
+
+exit: 0

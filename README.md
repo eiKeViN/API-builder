@@ -13,3 +13,12 @@ python3 scripts/test_smoke.py
 
 The smoke suite uses isolated temporary package copies and leaves provider sources unchanged.
 It does not need mathlib. This is not yet the bundled-map API generator.
+
+The mathematical contracts and their generic laws also compile. Check the
+choice-based operations and counterexample proofs with:
+
+```sh
+lake env lean tests/math/Contracts.lean
+```
+
+The two mathlib fixture cores and handwritten golden API remain the next stage.

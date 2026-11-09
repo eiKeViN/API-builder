@@ -1,9 +1,9 @@
 $ lake build
-✔ [4/14] Built ApiBuilder.SDK (411ms)
-✔ [6/14] Built SmokeProvider.Helper (579ms)
-✔ [8/14] Built ApiBuilder.Elab (744ms)
-✔ [10/14] Built SmokeProvider (519ms)
-✔ [12/14] Built SmokeConsumer (396ms)
+✔ [4/14] Built ApiBuilder.SDK (391ms)
+✔ [6/14] Built SmokeProvider.Helper (467ms)
+✔ [8/14] Built ApiBuilder.Elab (634ms)
+✔ [10/14] Built SmokeProvider (516ms)
+✔ [12/14] Built SmokeConsumer (433ms)
 Build completed successfully (14 jobs).
 
 exit: 0
