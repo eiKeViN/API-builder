@@ -1,0 +1,6 @@
+$ lake build Examples.Continuous.Core Examples.Order.GoldenClient
+ℹ [1882/1883] Replayed Examples.Order.GoldenClient
+info: Examples/Order/GoldenClient.lean:13:0: OrderExample.Map.ext_iff.{u} {X Y : Obj} {f g : Map X Y} : f = g ↔ ∀ (x : X.Carrier), f x = g x
+Build completed successfully (1883 jobs).
+
+exit: 0

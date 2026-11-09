@@ -1,0 +1,11 @@
+{
+  "mathlib": "6da929dc62a7af33b577a22d4a01c08ddfd4f8f6",
+  "plausible": "129d1ba9a16bc0660f46c79e9fb041ef5d5d80de",
+  "LeanSearchClient": "c61286b7b63cbfd563b28e11e81d0a18233a044a",
+  "importGraph": "e5d5639bedc7feecfbcb98e30b3bf26463d9f722",
+  "proofwidgets": "16259c0d07d61ee37d999d05b5cf96338b8daa11",
+  "aesop": "7d11bfa88558f8d3d90afdf6bd877ed70001498d",
+  "Qq": "b0256621cb88178e9ad932a53633077b3029e621",
+  "batteries": "a2cb3b56d0a3184118b681d3dba91d35fb30ed93",
+  "Cli": "c09cb1e4f1e6e1c231a1175a12b681b075054a1b"
+}
