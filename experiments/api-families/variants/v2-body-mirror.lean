@@ -1,0 +1,25 @@
+module
+
+public import Mathlib.Algebra.Group.Subgroup.Map
+
+@[expose] public section
+
+/- A body-mirroring generator would export the changed existential shape. -/
+namespace Evolution
+
+variable {G H : Type*} [Group G] [Group H]
+
+def map (f : G →* H) (p : Subgroup G) : Subgroup H where
+  carrier := Set.range (fun x : p => f x)
+  one_mem' := ⟨⟨1, p.one_mem⟩, f.map_one⟩
+  mul_mem' := by
+    rintro _ _ ⟨x, rfl⟩ ⟨y, rfl⟩
+    exact ⟨x * y, f.map_mul x y⟩
+  inv_mem' := by
+    rintro _ ⟨x, rfl⟩
+    exact ⟨x⁻¹, f.map_inv x⟩
+
+@[simp] theorem mem_map {f : G →* H} {p : Subgroup G} {y : H} :
+    y ∈ map f p ↔ ∃ x : p, f x = y := Iff.rfl
+
+end Evolution

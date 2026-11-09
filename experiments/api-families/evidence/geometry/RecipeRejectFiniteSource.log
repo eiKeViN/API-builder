@@ -1,0 +1,8 @@
+$ lean negative/AGExperiment/RecipeRejectFiniteSource.lean
+negative/AGExperiment/RecipeRejectFiniteSource.lean:6:0: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  AlgebraicGeometry.IsZariskiLocalAtSource fun {X Y} f => ProbeFinite f
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+negative/AGExperiment/RecipeRejectFiniteSource.lean:6:0: error: source restriction requires a proven source-locality capability
+
+exit: 1

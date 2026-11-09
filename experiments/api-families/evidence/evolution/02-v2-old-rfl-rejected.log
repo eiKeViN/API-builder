@@ -1,0 +1,11 @@
+✖ [1318/1323] Building Evolution.Map (1.1s)
+trace: .> LEAN_PATH=/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean /workspace/scratch/2c44d1f930c8/lean-runtime/lean-4.36.0-rc2-linux/bin/lean /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Evolution/Map.lean -o /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Evolution/Map.olean -i /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Evolution/Map.ilean -c /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/ir/Evolution/Map.c --setup /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/ir/Evolution/Map.setup.json --json
+error: Evolution/Map.lean:24:38: Type mismatch
+  Iff.rfl
+has type
+  ?m.18 ↔ ?m.18
+but is expected to have type
+  y ∈ map f p ↔ ∃ x ∈ p, f x = y
+Some required targets logged failures:
+- Evolution.Map
+error: build failed

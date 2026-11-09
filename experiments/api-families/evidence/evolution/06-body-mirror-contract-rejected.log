@@ -1,0 +1,11 @@
+✖ [1320/1321] Building Evolution.Contract (1.4s)
+trace: .> LEAN_PATH=/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean /workspace/scratch/2c44d1f930c8/lean-runtime/lean-4.36.0-rc2-linux/bin/lean /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Evolution/Contract.lean -o /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Evolution/Contract.olean -i /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Evolution/Contract.ilean -c /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/ir/Evolution/Contract.c --setup /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/ir/Evolution/Contract.setup.json --json
+error: Evolution/Contract.lean:16:2: Type mismatch
+  @mem_map G H inst✝¹ inst✝
+has type
+  ∀ {f : G →* H} {p : Subgroup G} {y : H}, y ∈ map f p ↔ ∃ (x : ↥p), f ↑x = y
+but is expected to have type
+  ∀ {f : G →* H} {p : Subgroup G} {y : H}, y ∈ map f p ↔ ∃ (x : G), x ∈ p ∧ f x = y
+Some required targets logged failures:
+- Evolution.Contract
+error: build failed

@@ -1,0 +1,4 @@
+$ lean negative/MapBaseline/RejectMacroRegistration.lean
+negative/MapBaseline/RejectMacroRegistration.lean:7:0: error: map contract: missing simp registration for 'comap_inf'
+
+exit: 1

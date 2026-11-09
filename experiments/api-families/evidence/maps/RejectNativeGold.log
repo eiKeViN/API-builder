@@ -1,0 +1,4 @@
+$ lean negative/MapBaseline/RejectNativeGold.lean
+negative/MapBaseline/RejectNativeGold.lean:15:0: error: map contract: generated proof uses native gold API 'Subgroup.map_sup'
+
+exit: 1

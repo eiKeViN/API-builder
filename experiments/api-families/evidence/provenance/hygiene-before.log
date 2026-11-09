@@ -1,0 +1,26 @@
+Holdout/NamedClient.lean:13:48: error: Invalid argument name `p` for function `Macro.SubsemiringAPI.map_sup`
+
+Hint: Perhaps you meant one of the following parameter names:
+  • `R`: p̵R̲
+  • `S`: p̵S̲
+Holdout/NamedClient.lean:16:50: error: Invalid argument name `p` for function `Macro.SubsemiringAPI.comap_inf`
+
+Hint: Perhaps you meant one of the following parameter names:
+  • `R`: p̵R̲
+  • `S`: p̵S̲
+Holdout/NamedClient.lean:19:40: error: Invalid argument name `f` for function `Recipe.SubsemiringAPI.map_sup`
+Holdout/NamedClient.lean:22:42: error: Invalid argument name `f` for function `Recipe.SubsemiringAPI.comap_inf`
+Holdout/NamedClient.lean:31:47: error: Invalid argument name `p` for function `Macro.SubalgebraAPI.map_sup`
+
+Hint: Perhaps you meant one of the following parameter names:
+  • `R`: p̵R̲
+  • `A`: p̵A̲
+  • `B`: p̵B̲
+Holdout/NamedClient.lean:34:49: error: Invalid argument name `p` for function `Macro.SubalgebraAPI.comap_inf`
+
+Hint: Perhaps you meant one of the following parameter names:
+  • `R`: p̵R̲
+  • `A`: p̵A̲
+  • `B`: p̵B̲
+Holdout/NamedClient.lean:37:39: error: Invalid argument name `f` for function `Recipe.SubalgebraAPI.map_sup`
+Holdout/NamedClient.lean:40:41: error: Invalid argument name `f` for function `Recipe.SubalgebraAPI.comap_inf`

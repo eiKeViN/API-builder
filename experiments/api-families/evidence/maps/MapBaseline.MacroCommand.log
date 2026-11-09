@@ -1,0 +1,3 @@
+$ lean -o /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/MapBaseline/MacroCommand.olean /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/MapBaseline/MacroCommand.lean
+
+exit: 0

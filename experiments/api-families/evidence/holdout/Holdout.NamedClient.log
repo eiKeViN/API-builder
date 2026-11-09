@@ -1,0 +1,3 @@
+$ lean -o /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/.lake/build/lib/lean/Holdout/NamedClient.olean /workspace/scratch/2c44d1f930c8/api-builder-validation/experiments/api-families/Holdout/NamedClient.lean
+
+exit: 0

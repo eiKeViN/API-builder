@@ -1,0 +1,4 @@
+$ lean negative/MapBaseline/RejectMissing.lean
+negative/MapBaseline/RejectMissing.lean:12:0: error: map contract: missing role 'comap_top' at 'MapBaseline.Missing.GroupAPI.comap_top'
+
+exit: 1

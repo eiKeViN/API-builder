@@ -1,0 +1,47 @@
+{
+  "Holdout/Checks.lean": {
+    "physical_lines": 12,
+    "nonblank_lines": 11,
+    "sha256": "351b1f579e2375160edf4f738dc1a592dc385cb807ac9bb23ea393227369cc6f"
+  },
+  "Holdout/ImportedCheck.lean": {
+    "physical_lines": 7,
+    "nonblank_lines": 6,
+    "sha256": "46ba841d8b33c63c568d768e09b10cf64f9ab4a0edc7d7a692df2382ab062489"
+  },
+  "Holdout/Macro.lean": {
+    "physical_lines": 30,
+    "nonblank_lines": 22,
+    "sha256": "52bfb2eeeae28dbdf80755867a9b40ceb46a6d316ed2cc2ec63f045ec8ef75d0"
+  },
+  "Holdout/MacroClient.lean": {
+    "physical_lines": 37,
+    "nonblank_lines": 28,
+    "sha256": "88288cfe8aad1fed56155861151e8b97a7a56e963c7cf80964526f53ac9683cb"
+  },
+  "Holdout/NamedClient.lean": {
+    "physical_lines": 43,
+    "nonblank_lines": 37,
+    "sha256": "ea71253df8aab3a1b5314ae6d97a6b2f2b1dc3e01f627ce46d10f00d5bdd990e"
+  },
+  "Holdout/Recipe.lean": {
+    "physical_lines": 12,
+    "nonblank_lines": 10,
+    "sha256": "1cd2411cad4b7918a3e3c0a87557944751520089ca9caea100515df5dc3a676a"
+  },
+  "Holdout/RecipeClient.lean": {
+    "physical_lines": 37,
+    "nonblank_lines": 28,
+    "sha256": "d0f1395d992d13cca3e826b4b27d5d10a618cc83fb5d7dabc32509cc3021b195"
+  },
+  "Holdout/Reference.lean": {
+    "physical_lines": 45,
+    "nonblank_lines": 38,
+    "sha256": "20ec2fe7e121fc19736b5d5274f5f7dd0d02418edbf2c37a38add839e455979c"
+  },
+  "Holdout/Specifications.lean": {
+    "physical_lines": 37,
+    "nonblank_lines": 32,
+    "sha256": "6f97a27f35a0e844a6623d6708a36b96d1bbee7440c07b25ed79886b1d0283cc"
+  }
+}

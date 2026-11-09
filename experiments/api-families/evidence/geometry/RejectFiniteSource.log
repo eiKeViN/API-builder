@@ -1,0 +1,11 @@
+$ lean negative/AGExperiment/RejectFiniteSource.lean
+negative/AGExperiment/RejectFiniteSource.lean:6:0: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  AlgebraicGeometry.IsZariskiLocalAtSource fun {X Y} f => ProbeFinite f
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+negative/AGExperiment/RejectFiniteSource.lean:6:0: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  AlgebraicGeometry.IsZariskiLocalAtSource fun {X Y} f => ProbeFinite f
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+
+exit: 1

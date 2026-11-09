@@ -1,0 +1,10 @@
+PASS root-build
+PASS contracts
+PASS provider-build
+PASS extended-build
+PASS unused-provider
+PASS extension-typo
+PASS acceptance
+PASS smoke
+PASS evolution
+PASS diff-check

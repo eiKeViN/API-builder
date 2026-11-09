@@ -1,0 +1,20 @@
+{
+  "command": [
+    "python3",
+    "scripts/check_all.py"
+  ],
+  "returncode": 0,
+  "groups": [
+    "root-build",
+    "contracts",
+    "provider-build",
+    "extended-build",
+    "unused-provider",
+    "extension-typo",
+    "acceptance",
+    "smoke",
+    "evolution",
+    "diff-check"
+  ],
+  "stdout": "../root-regression.log"
+}

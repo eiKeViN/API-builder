@@ -1,0 +1,19 @@
+name = "apiFamilyValidation"
+version = "0.1.0"
+defaultTargets = ["MapBaseline.AllContracts", "MapBaseline.NamedArguments", "Holdout.Checks", "Holdout.NamedClient", "AGExperiment.RecipeTests", "Evolution.Client"]
+
+[[require]]
+name = "apiBuilder"
+path = "../.."
+
+[[lean_lib]]
+name = "MapBaseline"
+
+[[lean_lib]]
+name = "AGExperiment"
+
+[[lean_lib]]
+name = "Holdout"
+
+[[lean_lib]]
+name = "Evolution"
