@@ -1,0 +1,41 @@
+{
+  "metric": "nonblank physical code lines after nested-comment removal",
+  "files": [
+    {
+      "path": "GaloisApi.lean",
+      "physical_lines": 3,
+      "sloc": 3,
+      "sha256": "1cc153343cdca3a54d17726decded4e179c025c942dae13df265d0c07c2ade70"
+    },
+    {
+      "path": "GaloisApi/Basic.lean",
+      "physical_lines": 148,
+      "sloc": 126,
+      "sha256": "692e10b5a8fc5b8bbc8d7dc83b54af996c0094836c49ef42725fb47f41b53af8"
+    },
+    {
+      "path": "GaloisApi/Check.lean",
+      "physical_lines": 73,
+      "sloc": 62,
+      "sha256": "dd99f768492beecae3122a0958d2494ea3736551887fc6ff8b9091079f0fb90f"
+    },
+    {
+      "path": "GaloisApiTests/Reference.lean",
+      "physical_lines": 158,
+      "sloc": 110,
+      "sha256": "59767908eeb61cdc3bbbc4e67e47b947c0d9cbeeddb81bbf08b0165b9cf3f7c5"
+    },
+    {
+      "path": "GaloisApiTests/Generated.lean",
+      "physical_lines": 78,
+      "sloc": 66,
+      "sha256": "913a768c6053c259e4e0535371a6c6f0e09ba43b80a2d471d43ad29ffff0e0b9"
+    }
+  ],
+  "interpretation": [
+    "The optional checker and independently written reference signatures have real source costs.",
+    "The generated consumer includes examples of selection and scope; it is not a minimal cost benchmark.",
+    "The dedicated tool now has more usability and failure-handling features than the original 86-SLOC baseline.",
+    "Source size does not establish developer-time or lifecycle productivity."
+  ]
+}

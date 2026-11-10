@@ -1,0 +1,5 @@
+$ lake env lean negative/EmptySelection.lean
+negative/EmptySelection.lean:6:0: error: galois_api: select at least one role
+ROLLBACK_OK
+
+exit: 1

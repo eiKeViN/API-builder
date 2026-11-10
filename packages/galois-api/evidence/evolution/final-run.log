@@ -1,0 +1,6 @@
+info: toolchain not updated; already up-to-date
+info: mathlib: running post-update hooks
+PASS v1-clean
+PASS v2-old-proof-rejected
+PASS v2-adapter-incremental
+PASS v2-adapter-clean

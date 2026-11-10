@@ -1,0 +1,5 @@
+$ lake env lean negative/WrongDirection.lean
+negative/WrongDirection.lean:6:70: error: galois_api: unsupported role 'comap_inf'
+ROLLBACK_OK
+
+exit: 1

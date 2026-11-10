@@ -1,0 +1,7 @@
+$ lake env lean negative/Sorry.lean
+negative/Sorry.lean:9:9: warning: declaration uses `sorry`
+negative/Sorry.lean:6:0: warning: declaration uses `sorry`
+negative/Sorry.lean:6:0: error: galois_api: forbidden axiom 'sorryAx' in 'Bad.comap_top'
+ROLLBACK_OK
+
+exit: 1

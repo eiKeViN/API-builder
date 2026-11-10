@@ -1,0 +1,7 @@
+name = "galoisApiConsumer"
+defaultTargets = ["Client"]
+[[require]]
+name = "galoisApi"
+path = "../.."
+[[lean_lib]]
+name = "Client"

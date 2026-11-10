@@ -1,0 +1,5 @@
+$ lake build GaloisApi GaloisApiTests.Generated GaloisApiTests.Support GaloisApiTests.Client GaloisApiTests.NamedClient GaloisApiTests.ExtraClient GaloisApiTests.ImportedCheck GaloisApiTests.SourceRanges
+✔ [2532/2550] Built GaloisApi.Check (1.6s)
+Build completed successfully (2550 jobs).
+
+exit: 0

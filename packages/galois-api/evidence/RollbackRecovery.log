@@ -1,0 +1,18 @@
+$ lake env lean negative/RollbackRecovery.lean
+negative/RollbackRecovery.lean:9:12: error: Type mismatch
+  True.intro
+has type
+  True
+but is expected to have type
+  Subgroup.comap f ⊤ = ⊤
+negative/RollbackRecovery.lean:9:12: error: Type mismatch
+  True.intro
+has type
+  True
+but is expected to have type
+  Subgroup.comap f ⊤ = ⊤
+negative/RollbackRecovery.lean:6:0: error: galois_api: failed to prove 'Bad.comap_top'
+ROLLBACK_OK
+RECOVERY_OK
+
+exit: 1
