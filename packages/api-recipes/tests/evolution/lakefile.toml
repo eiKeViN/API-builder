@@ -1,0 +1,13 @@
+name = "observationEvolution"
+defaultTargets = ["Client"]
+[[lean_lib]]
+name = "Core"
+[[lean_lib]]
+name = "Generated"
+[[lean_lib]]
+name = "Reference"
+[[lean_lib]]
+name = "Client"
+[[require]]
+name = "apiRecipes"
+path = "../.."

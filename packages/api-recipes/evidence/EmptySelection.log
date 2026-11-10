@@ -1,0 +1,5 @@
+$ lake env lean negative/EmptySelection.lean
+negative/EmptySelection.lean:5:0: error: recipe: select at least one role
+ROLLBACK_OK
+
+exit: 1

@@ -1,0 +1,5 @@
+$ lake build
+✔ [712/720] Built Core (1.1s)
+Build completed successfully (720 jobs).
+
+exit: 0

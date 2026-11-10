@@ -1,0 +1,5 @@
+$ lake env lean negative/MissingEstimate.lean
+negative/MissingEstimate.lean:5:0: error: recipe: missing field 'estimate'
+ROLLBACK_OK
+
+exit: 1

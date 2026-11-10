@@ -1,0 +1,4 @@
+$ lake env lean negative/LostSimp.lean
+negative/LostSimp.lean:6:0: error: contract: missing simp registration 'ApiRecipesTests.Pointwise.LinearAPI.add_apply'
+
+exit: 1

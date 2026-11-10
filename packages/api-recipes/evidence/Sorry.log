@@ -1,0 +1,6 @@
+$ lake env lean negative/Sorry.lean
+negative/Sorry.lean:5:0: warning: declaration uses `sorry`
+negative/Sorry.lean:5:0: error: recipe: forbidden axiom 'sorryAx' in 'Bad.iff_spec'
+ROLLBACK_OK
+
+exit: 1

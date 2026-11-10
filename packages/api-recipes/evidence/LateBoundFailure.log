@@ -1,0 +1,17 @@
+$ lake env lean negative/LateBoundFailure.lean
+negative/LateBoundFailure.lean:7:12: error: Application type mismatch: The argument
+  True.intro
+has type
+  True
+but is expected to have type
+  0 ≤ 1
+in the application
+  LinearMap.mkContinuous_norm_le LinearMap.id True.intro
+
+Note: The following definitions were not unfolded because their definition is not exposed:
+  Real.instLE ↦ 2
+negative/LateBoundFailure.lean:5:0: error: recipe: failed to generate 'Bad.norm_le'
+ROLLBACK_OK
+RECOVERY_OK
+
+exit: 1

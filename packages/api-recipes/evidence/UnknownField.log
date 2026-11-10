@@ -1,0 +1,5 @@
+$ lake env lean negative/UnknownField.lean
+negative/UnknownField.lean:6:2: error: recipe: unknown field 'typo'
+ROLLBACK_OK
+
+exit: 1
