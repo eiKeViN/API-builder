@@ -1,0 +1,31 @@
+PASS library-and-clients
+PASS UnknownRole
+PASS DuplicateRole
+PASS EmptySelection
+PASS WrongDirection
+PASS Collision
+PASS WrongGC
+PASS MissingField
+PASS DuplicateField
+PASS UnknownField
+PASS RollbackRecovery
+PASS Sorry
+PASS LostRegistration
+PASS external-update
+PASS external-consumer
+{
+  "lean": "4.36.0-rc2",
+  "mathlib": "6da929dc62a7af33b577a22d4a01c08ddfd4f8f6",
+  "cases": 15,
+  "all_passed": true,
+  "sources": {
+    "GaloisApi.lean": "1cc153343cdca3a54d17726decded4e179c025c942dae13df265d0c07c2ade70",
+    "GaloisApi/Basic.lean": "692e10b5a8fc5b8bbc8d7dc83b54af996c0094836c49ef42725fb47f41b53af8",
+    "GaloisApi/Check.lean": "dd99f768492beecae3122a0958d2494ea3736551887fc6ff8b9091079f0fb90f"
+  },
+  "limits": [
+    "Expected failures require their intended diagnostics and absence/recovery markers.",
+    "Command-state rollback covers this synchronous generator, not arbitrary tactic IO.",
+    "This is a design/implementation validation, not an author-time productivity benchmark."
+  ]
+}

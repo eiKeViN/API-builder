@@ -1,0 +1,5 @@
+$ lake env lean negative/Collision.lean
+negative/Collision.lean:7:0: error: galois_api: output collision 'Bad.map_bot'; select only the missing roles
+PREFLIGHT_OK
+
+exit: 1

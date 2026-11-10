@@ -1,0 +1,4 @@
+$ lake env lean negative/LostRegistration.lean
+negative/LostRegistration.lean:5:0: error: galois API contract: missing simp registration for 'map_sup'
+
+exit: 1

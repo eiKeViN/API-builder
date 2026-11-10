@@ -1,0 +1,5 @@
+$ lake env lean negative/UnknownRole.lean
+negative/UnknownRole.lean:6:66: error: galois_api: unsupported role 'map_supp'
+ROLLBACK_OK
+
+exit: 1

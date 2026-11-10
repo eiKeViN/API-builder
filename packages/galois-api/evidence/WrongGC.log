@@ -1,0 +1,21 @@
+$ lake env lean negative/WrongGC.lean
+negative/WrongGC.lean:6:34: error: Application type mismatch: The argument
+  True.intro
+has type
+  True
+but is expected to have type
+  GaloisConnection ?m.10 ?m.11
+in the application
+  GaloisConnection.l_sup True.intro
+negative/WrongGC.lean:6:34: error: Application type mismatch: The argument
+  True.intro
+has type
+  True
+but is expected to have type
+  GaloisConnection (?m.16 f p✝ q✝) ?m.27
+in the application
+  GaloisConnection.l_sup True.intro
+negative/WrongGC.lean:6:0: error: galois_api: failed to prove 'Bad.map_sup'
+ROLLBACK_OK
+
+exit: 1

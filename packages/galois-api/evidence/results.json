@@ -1,0 +1,158 @@
+[
+  {
+    "case": "library-and-clients",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 4.307
+  },
+  {
+    "case": "UnknownRole",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "unsupported role 'map_supp'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 2.53
+  },
+  {
+    "case": "DuplicateRole",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "duplicate role 'map_sup'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 2.696
+  },
+  {
+    "case": "EmptySelection",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "select at least one role",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 2.768
+  },
+  {
+    "case": "WrongDirection",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "unsupported role 'comap_inf'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 1.944
+  },
+  {
+    "case": "Collision",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "output collision 'Bad.map_bot'",
+      "PREFLIGHT_OK"
+    ],
+    "seconds": 2.524
+  },
+  {
+    "case": "WrongGC",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "failed to prove 'Bad.map_sup'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 1.916
+  },
+  {
+    "case": "MissingField",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "missing field 'top'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 2.065
+  },
+  {
+    "case": "DuplicateField",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "duplicate field 'inf'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 2.041
+  },
+  {
+    "case": "UnknownField",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "unknown field 'typo'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 2.029
+  },
+  {
+    "case": "RollbackRecovery",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "failed to prove 'Bad.comap_top'",
+      "ROLLBACK_OK",
+      "RECOVERY_OK"
+    ],
+    "seconds": 2.702
+  },
+  {
+    "case": "Sorry",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "forbidden axiom 'sorryAx'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 2.015
+  },
+  {
+    "case": "LostRegistration",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "missing simp registration for 'map_sup'"
+    ],
+    "seconds": 2.521
+  },
+  {
+    "case": "external-update",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 2.992
+  },
+  {
+    "case": "external-consumer",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 1.487
+  }
+]

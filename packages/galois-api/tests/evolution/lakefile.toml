@@ -1,0 +1,13 @@
+name = "galoisApiEvolution"
+defaultTargets = ["Client"]
+[[require]]
+name = "galoisApi"
+path = "../.."
+[[lean_lib]]
+name = "Core"
+[[lean_lib]]
+name = "Reference"
+[[lean_lib]]
+name = "Generated"
+[[lean_lib]]
+name = "Client"

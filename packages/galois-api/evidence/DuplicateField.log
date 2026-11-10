@@ -1,0 +1,5 @@
+$ lake env lean negative/DuplicateField.lean
+negative/DuplicateField.lean:8:2: error: preimage_api: duplicate field 'inf'
+ROLLBACK_OK
+
+exit: 1

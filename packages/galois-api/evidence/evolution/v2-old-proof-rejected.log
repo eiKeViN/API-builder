@@ -1,0 +1,13 @@
+✖ [1325/1333] Building Core (907ms)
+trace: .> LEAN_PATH=/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/packages/galois-api/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/packages/galois-api/tests/evolution/.lake/build/lib/lean /workspace/scratch/2c44d1f930c8/lean-tool-runtime/lean-4.36.0-rc2-linux/bin/lean /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/galois-api/tests/evolution/Core.lean -o /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/galois-api/tests/evolution/.lake/build/lib/lean/Core.olean -i /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/galois-api/tests/evolution/.lake/build/lib/lean/Core.ilean -c /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/galois-api/tests/evolution/.lake/build/ir/Core.c --setup /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/galois-api/tests/evolution/.lake/build/ir/Core.setup.json --json
+error: Core.lean:24:38: Type mismatch
+  Iff.rfl
+has type
+  ?m.18 ↔ ?m.18
+but is expected to have type
+  y ∈ map f p ↔ ∃ x ∈ p, f x = y
+Some required targets logged failures:
+- Core
+error: build failed
+
+exit: 1

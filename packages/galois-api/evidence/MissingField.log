@@ -1,0 +1,5 @@
+$ lake env lean negative/MissingField.lean
+negative/MissingField.lean:6:0: error: preimage_api: missing field 'top'
+ROLLBACK_OK
+
+exit: 1

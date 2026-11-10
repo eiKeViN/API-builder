@@ -1,0 +1,5 @@
+$ lake env lean negative/DuplicateRole.lean
+negative/DuplicateRole.lean:6:75: error: galois_api: duplicate role 'map_sup'
+ROLLBACK_OK
+
+exit: 1
