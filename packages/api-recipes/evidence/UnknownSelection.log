@@ -1,0 +1,5 @@
+$ lake env lean negative/UnknownSelection.lean
+negative/UnknownSelection.lean:5:40: error: recipe: unsupported role 'convolution'
+ROLLBACK_OK
+
+exit: 1

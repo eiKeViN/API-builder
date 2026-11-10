@@ -1,0 +1,5 @@
+$ lake env lean negative/NotIff.lean
+negative/NotIff.lean:5:0: error: iff_api: expected an explicit P ↔ Q contract
+ROLLBACK_OK
+
+exit: 1

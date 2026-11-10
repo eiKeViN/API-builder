@@ -1,0 +1,14 @@
+$ lake env lean negative/MissingSourceCapability.lean
+negative/MissingSourceCapability.lean:7:0: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  IsZariskiLocalAtSource fun {X Y} f => ProperProbe f
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+negative/MissingSourceCapability.lean:7:0: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  IsZariskiLocalAtSource fun {X Y} f => ProperProbe f
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+negative/MissingSourceCapability.lean:7:0: error: recipe: failed to generate 'Bad.resLE'
+ROLLBACK_OK
+RECOVERY_OK
+
+exit: 1

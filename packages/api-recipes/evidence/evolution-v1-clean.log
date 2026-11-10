@@ -1,0 +1,8 @@
+$ lake build
+✔ [712/720] Built Core (979ms)
+✔ [714/720] Built Reference (1.1s)
+✔ [716/720] Built Generated (1.8s)
+✔ [718/720] Built Client (1.4s)
+Build completed successfully (720 jobs).
+
+exit: 0

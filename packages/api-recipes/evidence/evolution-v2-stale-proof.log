@@ -1,0 +1,14 @@
+$ lake build
+✖ [712/720] Building Core (1.4s)
+trace: .> LEAN_PATH=/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/Cli/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/batteries/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/Qq/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/aesop/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/proofwidgets/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/importGraph/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/plausible/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/.lake/packages/mathlib/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/packages/api-recipes/.lake/build/lib/lean:/workspace/scratch/2c44d1f930c8/api-builder-tools/packages/api-recipes/tests/evolution/.lake/build/lib/lean /workspace/scratch/2c44d1f930c8/lean-tool-runtime/lean-4.36.0-rc2-linux/bin/lean /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/api-recipes/tests/evolution/Core.lean -o /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/api-recipes/tests/evolution/.lake/build/lib/lean/Core.olean -i /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/api-recipes/tests/evolution/.lake/build/lib/lean/Core.ilean -c /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/api-recipes/tests/evolution/.lake/build/ir/Core.c --setup /workspace/scratch/2c44d1f930c8/api-builder-tools/packages/api-recipes/tests/evolution/.lake/build/ir/Core.setup.json --json
+error: Core.lean:6:62: Type mismatch
+  Iff.rfl
+has type
+  ?m.7 ↔ ?m.7
+but is expected to have type
+  Doubled n ↔ ∃ k, n = k + k
+Some required targets logged failures:
+- Core
+error: build failed
+
+exit: 1

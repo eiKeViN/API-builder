@@ -1,0 +1,7 @@
+name = "recipeConsumer"
+defaultTargets = ["Client"]
+[[lean_lib]]
+name = "Client"
+[[require]]
+name = "apiRecipes"
+path = "../.."

@@ -1,0 +1,14 @@
+$ lake env lean negative/NonPointwiseMultiplication.lean
+negative/NonPointwiseMultiplication.lean:5:0: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  IsMulApply (ℝ →L[ℝ] ℝ)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+negative/NonPointwiseMultiplication.lean:5:0: error(lean.synthInstanceFailed): failed to synthesize instance of type class
+  IsMulApply (ℝ →L[ℝ] ℝ)
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+negative/NonPointwiseMultiplication.lean:5:0: error: recipe: failed to generate 'Bad.mul_apply'
+ROLLBACK_OK
+RECOVERY_OK
+
+exit: 1

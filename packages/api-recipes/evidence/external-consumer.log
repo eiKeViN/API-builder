@@ -1,0 +1,5 @@
+$ lake build
+✔ [6421/6423] Built Client (4.3s)
+Build completed successfully (6423 jobs).
+
+exit: 0

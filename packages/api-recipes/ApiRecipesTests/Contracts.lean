@@ -1,0 +1,95 @@
+module
+public import ApiRecipesTests.Observation
+public import ApiRecipesTests.Pointwise
+public import ApiRecipesTests.BoundedLinear
+public import ApiRecipesTests.Geometry
+public import ApiRecipesTests.Reference
+public meta import ApiRecipesTests.Support
+public section
+
+#check_recipe_type ApiRecipesTests.Observation.DoubleAPI.iff_spec against ApiRecipesTests.Reference.DoubleAPI.iff_spec
+#check_recipe_type ApiRecipesTests.Observation.DoubleAPI.of_spec against ApiRecipesTests.Reference.DoubleAPI.of_spec
+#check_recipe_type ApiRecipesTests.Observation.DoubleAPI.to_spec against ApiRecipesTests.Reference.DoubleAPI.to_spec
+#check_recipe_type ApiRecipesTests.Observation.SubsetAPI.iff_spec against ApiRecipesTests.Reference.SubsetAPI.iff_spec
+#check_recipe_type ApiRecipesTests.Observation.SubsetAPI.of_spec against ApiRecipesTests.Reference.SubsetAPI.of_spec
+#check_recipe_type ApiRecipesTests.Observation.SubsetAPI.to_spec against ApiRecipesTests.Reference.SubsetAPI.to_spec
+#check_recipe_type ApiRecipesTests.Pointwise.AddOnly.add_apply against ApiRecipesTests.Reference.AddOnly.add_apply
+#check_recipe_type ApiRecipesTests.Pointwise.AddOnly.coe_add against ApiRecipesTests.Reference.AddOnly.coe_add
+#check_recipe_type ApiRecipesTests.BoundedLinear.GenericAPI.map against ApiRecipesTests.Reference.Bounded.map
+#check_recipe_type ApiRecipesTests.BoundedLinear.GenericAPI.map_apply against ApiRecipesTests.Reference.Bounded.map_apply
+#check_recipe_type ApiRecipesTests.BoundedLinear.GenericAPI.map_zero against ApiRecipesTests.Reference.Bounded.map_zero
+#check_recipe_type ApiRecipesTests.BoundedLinear.GenericAPI.map_add against ApiRecipesTests.Reference.Bounded.map_add
+#check_recipe_type ApiRecipesTests.BoundedLinear.GenericAPI.map_smul against ApiRecipesTests.Reference.Bounded.map_smul
+#check_recipe_type ApiRecipesTests.BoundedLinear.GenericAPI.continuous against ApiRecipesTests.Reference.Bounded.continuous
+#check_recipe_type ApiRecipesTests.BoundedLinear.GenericAPI.norm_le against ApiRecipesTests.Reference.Bounded.norm_le
+#check_recipe_type ApiRecipesTests.Geometry.FlatAPI.comp against ApiRecipesTests.Reference.FlatAPI.comp
+#check_recipe_type ApiRecipesTests.Geometry.FlatAPI.pullback_fst against ApiRecipesTests.Reference.FlatAPI.pullback_fst
+#check_recipe_type ApiRecipesTests.Geometry.FlatAPI.pullback_snd against ApiRecipesTests.Reference.FlatAPI.pullback_snd
+#check_recipe_type ApiRecipesTests.Geometry.FlatAPI.restrict against ApiRecipesTests.Reference.FlatAPI.restrict
+#check_recipe_type ApiRecipesTests.Geometry.FlatAPI.resLE against ApiRecipesTests.Reference.FlatAPI.resLE
+#assert_recipe_simp ApiRecipesTests.Observation.SubsetAPI.iff_spec
+#assert_recipe_simp ApiRecipesTests.Pointwise.AddOnly.add_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.AddOnly.coe_add
+#assert_recipe_simp ApiRecipesTests.Pointwise.InverseAPI.inv_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.InverseAPI.coe_inv
+#assert_recipe_simp ApiRecipesTests.Pointwise.InverseAPI.div_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.InverseAPI.coe_div
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.zero_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.coe_zero
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.add_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.coe_add
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.neg_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.coe_neg
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.sub_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.coe_sub
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.smul_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.VanishingAPI.coe_smul
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.zero_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.coe_zero
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.one_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.coe_one
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.add_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.coe_add
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.mul_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.coe_mul
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.neg_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.coe_neg
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.sub_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.BoundedAPI.coe_sub
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.zero_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.coe_zero
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.add_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.coe_add
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.neg_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.coe_neg
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.sub_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.coe_sub
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.smul_apply
+#assert_recipe_simp ApiRecipesTests.Pointwise.LinearAPI.coe_smul
+#assert_recipe_simp ApiRecipesTests.BoundedLinear.GenericAPI.map_apply
+#assert_recipe_simp ApiRecipesTests.BoundedLinear.GenericAPI.map_zero
+#assert_recipe_simp ApiRecipesTests.BoundedLinear.GenericAPI.map_add
+#assert_recipe_simp ApiRecipesTests.BoundedLinear.GenericAPI.map_smul
+#assert_recipe_simp ApiRecipesTests.BoundedLinear.ScaleAPI.map_apply
+#assert_recipe_simp ApiRecipesTests.BoundedLinear.ScaleAPI.map_zero
+#assert_recipe_simp ApiRecipesTests.BoundedLinear.ScaleAPI.map_add
+#assert_recipe_simp ApiRecipesTests.BoundedLinear.ScaleAPI.map_smul
+#assert_recipe_plain ApiRecipesTests.Observation.DoubleAPI.iff_spec
+#assert_recipe_plain ApiRecipesTests.Observation.DoubleAPI.of_spec
+#assert_recipe_plain ApiRecipesTests.Observation.DoubleAPI.to_spec
+#assert_recipe_plain ApiRecipesTests.BoundedLinear.GenericAPI.continuous
+#assert_recipe_plain ApiRecipesTests.BoundedLinear.GenericAPI.norm_le
+#assert_recipe_instance ApiRecipesTests.Geometry.FlatAPI.comp 900
+#assert_recipe_instance ApiRecipesTests.Geometry.FlatAPI.pullback_fst 900
+#assert_recipe_instance ApiRecipesTests.Geometry.FlatAPI.pullback_snd 900
+#assert_recipe_instance ApiRecipesTests.Geometry.FlatAPI.restrict 900
+#assert_recipe_instance ApiRecipesTests.Geometry.FlatAPI.resLE 900
+#assert_recipe_instance ApiRecipesTests.Geometry.ProperAPI.comp 1000
+#assert_recipe_instance ApiRecipesTests.Geometry.ProperAPI.pullback_fst 1000
+#assert_recipe_instance ApiRecipesTests.Geometry.ProperAPI.pullback_snd 1000
+#assert_recipe_instance ApiRecipesTests.Geometry.ProperAPI.restrict 1000
+#assert_recipe_instance ApiRecipesTests.Geometry.FiniteEtaleAPI.comp 1000
+#assert_recipe_instance ApiRecipesTests.Geometry.FiniteEtaleAPI.pullback_fst 1000
+#assert_recipe_instance ApiRecipesTests.Geometry.FiniteEtaleAPI.pullback_snd 1000
+#assert_recipe_instance ApiRecipesTests.Geometry.FiniteEtaleAPI.restrict 1000
+#assert_no_recipe_dispatcher

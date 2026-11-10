@@ -1,0 +1,227 @@
+[
+  {
+    "case": "library-and-contracts",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 14.894
+  },
+  {
+    "case": "NotIff",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "expected an explicit P \u2194 Q contract",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 4.069
+  },
+  {
+    "case": "Sorry",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "forbidden axiom 'sorryAx'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 5.79
+  },
+  {
+    "case": "ObservationCollision",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "output collision 'Bad.of_spec'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 5.109
+  },
+  {
+    "case": "DuplicateSelection",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "duplicate role 'zero'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 4.744
+  },
+  {
+    "case": "UnknownSelection",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "unsupported role 'convolution'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 3.499
+  },
+  {
+    "case": "EmptySelection",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "select at least one role",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 3.873
+  },
+  {
+    "case": "NonPointwiseMultiplication",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "IsMulApply",
+      "failed to generate 'Bad.mul_apply'",
+      "ROLLBACK_OK",
+      "RECOVERY_OK"
+    ],
+    "seconds": 5.343
+  },
+  {
+    "case": "MissingEstimate",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "missing field 'estimate'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 9.231
+  },
+  {
+    "case": "DuplicateField",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "duplicate field 'bound'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 15.14
+  },
+  {
+    "case": "UnknownField",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "unknown field 'typo'",
+      "ROLLBACK_OK"
+    ],
+    "seconds": 4.572
+  },
+  {
+    "case": "LateBoundFailure",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "failed to generate 'Bad.norm_le'",
+      "ROLLBACK_OK",
+      "RECOVERY_OK"
+    ],
+    "seconds": 4.977
+  },
+  {
+    "case": "MissingSourceCapability",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "IsZariskiLocalAtSource",
+      "failed to generate 'Bad.resLE'",
+      "ROLLBACK_OK",
+      "RECOVERY_OK"
+    ],
+    "seconds": 4.586
+  },
+  {
+    "case": "LostInstance",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "missing instance or wrong priority"
+    ],
+    "seconds": 6.455
+  },
+  {
+    "case": "LostSimp",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "missing simp registration"
+    ],
+    "seconds": 5.196
+  },
+  {
+    "case": "consumer-update",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 3.399
+  },
+  {
+    "case": "external-consumer",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 8.155
+  },
+  {
+    "case": "evolution-update",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 5.405
+  },
+  {
+    "case": "evolution-v1-clean",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 5.699
+  },
+  {
+    "case": "evolution-v2-stale-proof",
+    "expected_failure": true,
+    "passed": true,
+    "returncode": 1,
+    "required_diagnostics": [
+      "Core.lean",
+      "Type mismatch",
+      "Iff.rfl"
+    ],
+    "seconds": 3.824
+  },
+  {
+    "case": "evolution-v2-adapter-incremental",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 3.425
+  },
+  {
+    "case": "evolution-v2-adapter-clean",
+    "expected_failure": false,
+    "passed": true,
+    "returncode": 0,
+    "required_diagnostics": [],
+    "seconds": 6.813
+  }
+]

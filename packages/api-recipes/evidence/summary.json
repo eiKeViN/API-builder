@@ -1,0 +1,25 @@
+{
+  "lean": "4.36.0-rc2",
+  "mathlib": "6da929dc62a7af33b577a22d4a01c08ddfd4f8f6",
+  "cases": 22,
+  "all_passed": true,
+  "recipes": 4,
+  "sources": {
+    "ApiRecipes.lean": "4f55fcbb2375ce1b9ba04ff1532a5c6773acd750ed27be8919ad961041b973c8",
+    "ApiRecipes/BoundedLinear.lean": "04205a743103eb6b983e802858f9aad727280023a91eebcddc6d818aff90c333",
+    "ApiRecipes/Command.lean": "f79a30ef83a115b1718f465f779d79f2fe975de2a5c55cc81bea1821c8c0b9b7",
+    "ApiRecipes/Observation.lean": "50ef8de9e52fa68fce55e477959c378b338bdc82811ed5ac438ce97b792b8c56",
+    "ApiRecipes/Pointwise.lean": "1998b104ad3513b4fdc3f9809413da0c4a2a53c83f368f0d89831e830f9f2e5a",
+    "ApiRecipes/SchemeProperty.lean": "886948053c51adc8745ba6cc4e811c9a9cb3ae522116a3f27fcb2b73738861b6"
+  },
+  "stable_evolution_clients": {
+    "tests/evolution/Generated.lean": "9db99f8f1536f9bfbbbff5be7af14a7c98fd389ac28519c6c8843f95883c6802",
+    "tests/evolution/Reference.lean": "680da3b4c212b6efd18aafe96eab39bd030a6c7989ef843884cf88b1fb16ec0a",
+    "tests/evolution/Client.lean": "8997fdfbe7ca50fbf37c74fa086e958ea845115e1503603e5380161787446cb3"
+  },
+  "limits": [
+    "Targeted negative controls require the intended diagnostic and rollback/recovery markers.",
+    "This validates implementations and clients; it does not measure author productivity.",
+    "Rollback covers synchronous Lean state, not external tactic IO."
+  ]
+}

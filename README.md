@@ -57,6 +57,8 @@ multiple alternative APIs for the same family together.
 - [API-family validation against dedicated generators](docs/API_FAMILY_VALIDATION.md)
 - [Concrete dedicated-generator design](docs/DEDICATED_GENERATOR_DESIGN.md)
 - [Standalone Galois API command package](packages/galois-api/README.md)
+- [Four further recipes across foundational and advanced mathematics](docs/FOUR_MORE_RECIPES.md)
+- [Observation, pointwise algebra, bounded operator and scheme-property recipes](packages/api-recipes/README.md)
 
 This is a bounded prototype, with local source upgrade tests and explicit supported
 contracts. The remaining hardening and independent-author evaluation are listed

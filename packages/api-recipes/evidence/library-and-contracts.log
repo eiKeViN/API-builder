@@ -1,0 +1,17 @@
+$ lake build ApiRecipes ApiRecipesTests.Contracts
+✔ [6456/6482] Built ApiRecipes.Command (3.1s)
+✔ [6458/6482] Built ApiRecipes.Observation (2.1s)
+✔ [6460/6482] Built ApiRecipesTests.Support (2.3s)
+✔ [6462/6482] Built ApiRecipes.Pointwise (2.0s)
+✔ [6464/6482] Built ApiRecipesTests.Reference (3.0s)
+✔ [6466/6482] Built ApiRecipes.BoundedLinear (3.5s)
+✔ [6468/6482] Built ApiRecipesTests.Observation (1.3s)
+✔ [6470/6482] Built ApiRecipes.SchemeProperty (3.6s)
+✔ [6472/6482] Built ApiRecipes (2.2s)
+✔ [6475/6482] Built ApiRecipesTests.BoundedLinear (2.5s)
+✔ [6477/6482] Built ApiRecipesTests.Pointwise (3.9s)
+✔ [6479/6482] Built ApiRecipesTests.Geometry (3.6s)
+✔ [6481/6482] Built ApiRecipesTests.Contracts (2.8s)
+Build completed successfully (6482 jobs).
+
+exit: 0

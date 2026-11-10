@@ -1,0 +1,5 @@
+$ lake env lean negative/DuplicateSelection.lean
+negative/DuplicateSelection.lean:5:46: error: recipe: duplicate role 'zero'
+ROLLBACK_OK
+
+exit: 1

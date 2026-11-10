@@ -1,0 +1,4 @@
+$ lake env lean negative/LostInstance.lean
+negative/LostInstance.lean:6:0: error: contract: missing instance or wrong priority 'ApiRecipesTests.Geometry.FlatAPI.pullback_fst'
+
+exit: 1

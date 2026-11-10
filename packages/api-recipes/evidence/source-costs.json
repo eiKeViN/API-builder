@@ -1,0 +1,102 @@
+{
+  "facade": {
+    "sloc": 5,
+    "files": [
+      {
+        "path": "ApiRecipes.lean",
+        "sloc": 5,
+        "sha256": "4f55fcbb2375ce1b9ba04ff1532a5c6773acd750ed27be8919ad961041b973c8"
+      }
+    ]
+  },
+  "shared_command_plumbing": {
+    "sloc": 109,
+    "files": [
+      {
+        "path": "ApiRecipes/Command.lean",
+        "sloc": 109,
+        "sha256": "f79a30ef83a115b1718f465f779d79f2fe975de2a5c55cc81bea1821c8c0b9b7"
+      }
+    ]
+  },
+  "four_recipe_modules": {
+    "sloc": 164,
+    "files": [
+      {
+        "path": "ApiRecipes/BoundedLinear.lean",
+        "sloc": 40,
+        "sha256": "04205a743103eb6b983e802858f9aad727280023a91eebcddc6d818aff90c333"
+      },
+      {
+        "path": "ApiRecipes/Observation.lean",
+        "sloc": 35,
+        "sha256": "50ef8de9e52fa68fce55e477959c378b338bdc82811ed5ac438ce97b792b8c56"
+      },
+      {
+        "path": "ApiRecipes/Pointwise.lean",
+        "sloc": 48,
+        "sha256": "1998b104ad3513b4fdc3f9809413da0c4a2a53c83f368f0d89831e830f9f2e5a"
+      },
+      {
+        "path": "ApiRecipes/SchemeProperty.lean",
+        "sloc": 41,
+        "sha256": "886948053c51adc8745ba6cc4e811c9a9cb3ae522116a3f27fcb2b73738861b6"
+      }
+    ]
+  },
+  "reference_and_checker": {
+    "sloc": 122,
+    "files": [
+      {
+        "path": "ApiRecipesTests/Reference.lean",
+        "sloc": 61,
+        "sha256": "f5d250081b55e2cf270790079e1b8a76e4e58f375110f78a27ca8aebc00ba6be"
+      },
+      {
+        "path": "ApiRecipesTests/Support.lean",
+        "sloc": 61,
+        "sha256": "8b3b910041d99a933a03d3d91b97b446adee81ce40ff8c00164323a636284a3f"
+      }
+    ]
+  },
+  "clients_and_fixtures": {
+    "sloc": 304,
+    "files": [
+      {
+        "path": "ApiRecipesTests/BoundedLinear.lean",
+        "sloc": 33,
+        "sha256": "a0cb54aec76cd4046e09272f9e7d280c9a043e9b957d8c836185e05ed2c317de"
+      },
+      {
+        "path": "ApiRecipesTests/Contracts.lean",
+        "sloc": 94,
+        "sha256": "2f75dcf687bac7a248f14dfd8abba731b52deb720badb3ae7cad21b2d9fd6a24"
+      },
+      {
+        "path": "ApiRecipesTests/Geometry.lean",
+        "sloc": 37,
+        "sha256": "30aa1e3d552466dca9dbbd2a1597d7bd606e5172256fc348a729818cff490e6a"
+      },
+      {
+        "path": "ApiRecipesTests/GeometryCore.lean",
+        "sloc": 53,
+        "sha256": "f436d275a6f3b45f1421b019fbcf51ddac820a0377664c336b0928e1a0c6f81e"
+      },
+      {
+        "path": "ApiRecipesTests/Observation.lean",
+        "sloc": 22,
+        "sha256": "d559fd6f4ee1b9bec851c00ed47c3f3d6e62e7e8e6e81dd0074ffe1a06970b68"
+      },
+      {
+        "path": "ApiRecipesTests/ObservationCore.lean",
+        "sloc": 9,
+        "sha256": "e00d211280964a6ed9f67b54e9c83a7f098c872c2bb56441f00d744b2524bac2"
+      },
+      {
+        "path": "ApiRecipesTests/Pointwise.lean",
+        "sloc": 56,
+        "sha256": "124c266ce33b0fe6f1f5ab10cdae38256d7f340e981ca9f22f1da29b9ef84bfc"
+      }
+    ]
+  }
+}
